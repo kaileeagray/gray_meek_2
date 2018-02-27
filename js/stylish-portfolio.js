@@ -1,6 +1,6 @@
 (function($) {
   "use strict"; // Start of use strict
-
+  $('[data-toggle="tooltip"]').tooltip();
   // Closes the sidebar menu
   $(".menu-toggle").click(function(e) {
     e.preventDefault();

@@ -33,7 +33,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .text-faded {
@@ -229,6 +229,10 @@ h6 {
   max-width: 30rem;
 }
 
+#photos {
+  padding-top: 3em;
+}
+
 .portfolio-item {
   display: block;
   position: relative;
@@ -336,14 +340,14 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary {
-  background-color: #EA888B !important;
-  border-color: #EA888B !important;
+  background-color: #343a40 !important;
+  border-color: #343a40 !important;
   color: #fff !important;
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #e25d61 !important;
-  border-color: #e25d61 !important;
+  background-color: #1d2124 !important;
+  border-color: #1d2124 !important;
 }
 
 .btn-dark {
@@ -364,5 +368,5 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: #EA888B !important;
+  color: #343a40 !important;
 }
