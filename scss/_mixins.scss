@@ -11,3 +11,7 @@
 @mixin body-font {
   font-family: 'Source Sans Pro';
 }
+
+@mixin header-font {
+  font-family: 'Acme', sans-serif;
+}
