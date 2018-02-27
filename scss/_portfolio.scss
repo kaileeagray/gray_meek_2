@@ -63,3 +63,24 @@
     }
   }
 }
+
+.maggie {
+  padding: 1em 3em 0 3em;
+}
+
+.maggie-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 500px;
+  margin: auto auto 1rem;
+  @media(min-width: 992px) {
+    max-width: none;
+    margin: 0;
+    img {
+      -webkit-transition: -webkit-clip-path 0.25s ease-out;
+      -webkit-clip-path: inset(-1px);
+      clip-path: inset(-1px);
+    }
+  }
+}
